@@ -1,9 +1,16 @@
-.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
+html { 
+	scroll-behavior: smooth;
+}
+
+.clearfix:after {: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
 
 .innerWrapper {
-	max-width: 920px;
+	max-width: 620px;
 	margin: 0 auto;
 }
 
@@ -82,9 +89,8 @@ header nav ul li a:focus {
 }
 
 /* HEAD SECTION */
-
 header {
-	background: url(https://ununsplash.imgix.net/uploads/141319062591093cefc09/ad50c1f0?q=75&fm=jpg&s=a356dd61ff3da2269124bcd12a303b7e);
+	background: url(https://images.pexels.com/photos/3738339/pexels-photo-3738339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -132,3 +138,75 @@ header {
     padding: 25px 2%;
   }
 }
+
+
+
+/*grid system for mobile*/
+@media screen and (max-width: 800px) {
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  background-color: white;
+	  padding: 0px;
+	}
+  }
+  
+  /*grid system for web page*/
+  @media screen and (min-width: 600px) {
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  background-color: white;
+	  padding: 100px;
+	}
+  }
+  
+  .grid-item {
+	background-color: white;
+	border: none;
+	padding: 30px;
+	text-align: center;
+  }
+  
+  img {
+	  width: 100%;
+	  height: auto;
+  }
+
+
+  li {
+	  list-style-type: none;
+	  font-family: 'Barlow', sans-serif;
+  }
+
+ 
+
+  p {
+	font-family: 'Barlow', sans-serif;
+	font-size: large;
+	
+  }
+
+  h1 {
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
+  }
+  h4 {
+	  text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	  font-size: 20px;
+	  font-family: 'Barlow', sans-serif;
+  }
+ 
+  .footer {
+	  position: relative;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color:white;
+	  color: black;
+	  text-align: center;
+  }
+
+
