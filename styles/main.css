@@ -149,6 +149,11 @@ header {
 		background-color: white;
 		padding: 0px;
 	  }
+	  .grid-container2 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
 
   }
   
@@ -159,6 +164,12 @@ header {
 	  grid-template-columns: auto auto;
 	  background-color: white;
 	  padding: 100px;
+	}
+	.grid-container2 {
+		display: grid;
+		grid-template-columns: auto auto;
+		background-color: white;
+		padding: 100px;
 	}
   }
   
