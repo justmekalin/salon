@@ -121,7 +121,7 @@ header {
 
 @media (max-width:900px) {
   .companyName {
-    width: 100%;
+    width:100%;
     text-align: center;
     padding: 4% 4%;
   }
@@ -143,6 +143,9 @@ header {
 
 /*grid system for mobile*/
 @media screen and (max-width: 800px) {
+	.hero h1{
+		font-size: 60px;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
@@ -163,13 +166,13 @@ header {
 	  display: grid;
 	  grid-template-columns: auto auto;
 	  background-color: white;
-	  padding: 100px;
+	  padding: 2px;
 	}
 	.grid-container2 {
 		display: grid;
 		grid-template-columns: auto auto;
 		background-color: white;
-		padding: 100px;
+		padding: 2px;
 	}
   }
   
@@ -209,7 +212,7 @@ header {
 	text-align: left;
 	margin-left: 20%;
 	margin-right: 20%;
-	  font-size: 18px;
+	  font-size: 20px;
 	  font-family: 'Barlow', sans-serif;
 	  font-weight: 590;
   }
